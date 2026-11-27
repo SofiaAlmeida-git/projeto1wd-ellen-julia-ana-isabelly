@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #839474;
+    height: 8vh;
+    width: 100vh;
+
+}
+body {
+    background-color: #f6f6ec;
+}
+h1 {
+    color: #f6f6ec;
+}
+.menu {
+
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #f6f6ec;
+    margin-left: 32px;
+}
